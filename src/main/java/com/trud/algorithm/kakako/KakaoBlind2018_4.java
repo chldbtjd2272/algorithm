@@ -1,7 +1,5 @@
 package com.trud.algorithm.kakako;
 
-import java.util.Arrays;
-
 public class KakaoBlind2018_4 {
 
     public static void main(String[] args) {
@@ -9,7 +7,6 @@ public class KakaoBlind2018_4 {
         long k = 5;
         System.out.println(solution(food_times, k));
     }
-
 
     public static int solution(int[] food_times, long k) {
         int answer = 0;
